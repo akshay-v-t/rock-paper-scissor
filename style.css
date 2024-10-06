@@ -1,6 +1,10 @@
-html, body {
-    background-color: antiquewhite;
+*{
+   
     font-family:'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    align-items:center;
+    justify-content: center;
+   
 }
 
 .container{
@@ -16,15 +20,6 @@ html, body {
     justify-content: center;
 }
 
-.inner-div{
-
-    background-color: rgb(197, 170, 137);
-    border-radius: 15px;
-    padding: 20px;
-    flex: auto;
-  
-}
-
 .inner-container{
     display: flex;
     flex-direction: row;
@@ -32,7 +27,7 @@ html, body {
     width: 100%;
     align-items: center;
     justify-content: center;
-    min-height: 60vh;
+  
     
 }
 
@@ -40,6 +35,8 @@ html, body {
     padding: 20px;
     display: flex;
     column-gap: 20px;
+   
+    flex-flow: row;
 }
 
 .button-section button{
@@ -54,3 +51,4 @@ html, body {
     background-color: rgb(168, 111, 46);
     color: #ffff;
 }
+
